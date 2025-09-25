@@ -10,8 +10,23 @@ function App() {
     <div className="font-sans scroll-smooth relative h-screen overflow-x-hidden">
       {/* Background Video */}
       <div className="fixed top-0 left-0 w-full h-full z-10 overflow-hidden">
-        <video autoPlay loop muted className="w-full h-full object-cover">
-          <source src="/JustCoding.mp4" type="video/mp4" />
+          <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100vw",
+            height: "100vh",
+            objectFit: "cover",
+            zIndex: -1, // ensures content appears above the video
+          }}
+        >
+          <source src={`${import.meta.env.BASE_URL}JustCoding.mp4`} type="video/mp4" />
+          Your browser does not support the video tag.
         </video>
         {/* Black Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-black/40"></div>
