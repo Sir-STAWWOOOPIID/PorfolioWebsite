@@ -76,13 +76,8 @@ function App() {
         >
           <h2 className="text-3xl font-bold mb-4 drop-shadow-md">About Me</h2>
           <p className="max-w-2xl">
-            I am a passionate and experienced software developer specializing in Roblox game development, web development, and app creation. Over the years, I have honed my skills in crafting engaging, interactive, and technically robust experiences that delight users and push creative boundaries.
-
-In the Roblox ecosystem, I focus on building immersive games with dynamic mechanics, seamless multiplayer interactions, and polished user interfaces. My expertise spans scripting complex systems using Roblox Lua, implementing UI/UX best practices, and optimizing performance for smooth gameplay experiences. I enjoy tackling challenging problems like creating inventory systems, NPC behaviors, and multiplayer functionality, all while maintaining clean, maintainable code.
-
-Beyond Roblox, I design and develop websites and applications that are intuitive, responsive, and visually appealing. I am experienced with modern web technologies including React, Tailwind CSS, and Flask, allowing me to deliver full-stack solutions that are both scalable and efficient. Whether it’s building interactive portfolios, dynamic dashboards, or custom apps, I aim to combine functionality with a sleek, user-centered design.
-
-My career is driven by a love for technology and creativity, constantly pushing me to learn new tools, explore innovative solutions, and deliver products that leave a lasting impression. I thrive in environments where I can solve problems, implement creative ideas, and make complex systems accessible and enjoyable for users.
+I’m a developer who likes building Roblox games, websites, and apps. I enjoy creating fun, interactive experiences with smooth gameplay and clean UI. In Roblox, I work with Lua to make things like inventory systems, NPCs, and multiplayer features, and I try to keep my code organized and easy to manage.
+Outside of Roblox, I build responsive websites and apps using tools like React, Tailwind CSS, and Flask. I like solving problems, learning new tech, and turning ideas into projects that look good and work well.
           </p>
         </section>
 
@@ -116,7 +111,7 @@ My career is driven by a love for technology and creativity, constantly pushing 
             <Card className="bg-white/60 backdrop-blur-sm w-full max-w-sm">
               <CardContent className="p-6">
                 <h3 className="font-bold text-lg text-black">Task Tracker</h3>
-                <p className="mt-2 text-black">This Legal Ops App is a task tracker that can help you keep track of what you need to do, designed for school use.</p>
+                <p className="mt-2 text-black">This Legal Ops App is a task tracker that can help you keep track of what you need to do, it was originally a simple request from my mother but somehow got turned into a full stack app, designed for school use.</p>
                 <Button asChild className="mt-4">
                   <a href="https://github.com/Sir-STAWWOOOPIID/LegalOpsApp">View on GitHub</a>
                 </Button>
